@@ -15,9 +15,21 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## ${data.description}
+  ## Description 
+  ${data.description}
 
-  ### 
+  ## Languages
+  The languages used to build this project are:
+  ${data.languages}
+
+  ## Installation
+  ${data.install}
+
+  ## Screenshots
+  ${data.screenshot}
+
+  ## Project Link
+  ${data.link}
 
 `;
 }

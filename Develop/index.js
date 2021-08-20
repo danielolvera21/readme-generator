@@ -30,6 +30,48 @@ const questions = () => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'checkbox',
+            name: 'languages',
+            message: 'What languages did you use to build this project? (check all that apply.',
+            choices: ['Javascript', 'HTML', 'CSS', 'ES6', 'JQuery', 'Node.js', 'React', 'Other']
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: "What are the steps required to install your project?",
+        },
+        {
+            type: 'confirm',
+            name: 'confirmScreenshot',
+            message: "Would you like to add any screenshots of your project?",
+            default: true
+        },
+        {
+            type: 'input',
+            name: 'screenshot',
+            message: "Please provide screenshot(s) of your project.",
+            when: ({ confirmScreenshot }) => {
+                if (confirmScreenshot) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'link',
+            message: "Please provide a link to your project.",
+            validate: projectLink => {
+                if (projectLink) {
+                    return true;
+                } else {
+                    console.log('Please provide a link to the project!')
+                    return false;
+                }
+            }
         }
     ])
         .then((answers) => {
