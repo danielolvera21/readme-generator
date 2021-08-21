@@ -1,19 +1,22 @@
 
-  # Run Buddy INC
+  # Run Buddy
 
   ## Description 
-  Run buddy
+  A website that offers fitness training services
 
   ## Languages
   The languages used to build this project are:
-  Javascript,CSS
+  Javascript,HTML,CSS
 
   ## Installation
-  no steps required
+  install procedures
 
   ## Screenshots
-  ![screenshot](https://user-images.githubusercontent.com/83250389/125986734-08f4f59f-ca25-45f3-916d-7f2f1da41495.png)
+  ![hero-bg](https://user-images.githubusercontent.com/83250389/130337291-0252438c-d682-4a6b-a447-81f5c5bacc60.jpg)
+
+  ## Contributors
+  Made by Daniel Olvera
 
   ## Project Link
-  github.com/danielolvera21/runbuddy
+  github.com/runbuddy
 

@@ -28,6 +28,9 @@ function generateMarkdown(data) {
   ## Screenshots
   ${data.screenshot}
 
+  ## Contributors
+  ${data.contribution}
+
   ## Project Link
   ${data.link}
 

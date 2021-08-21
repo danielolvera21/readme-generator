@@ -62,6 +62,11 @@ const questions = () => {
         },
         {
             type: 'input',
+            name: 'contribution',
+            message: "Who contributed to the project?",
+        },
+        {
+            type: 'input',
             name: 'link',
             message: "Please provide a link to your project.",
             validate: projectLink => {
