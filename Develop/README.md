@@ -2,7 +2,7 @@
   # Run Buddy
 
   ## Description 
-  A website that offers fitness training services
+  a website that offers training services
 
   ## Languages
   The languages used to build this project are:
@@ -12,11 +12,11 @@
   install procedures
 
   ## Screenshots
-  ![hero-bg](https://user-images.githubusercontent.com/83250389/130337291-0252438c-d682-4a6b-a447-81f5c5bacc60.jpg)
+  ![hero-bg](https://user-images.githubusercontent.com/83250389/130344789-fb49eee9-3d84-4019-883c-00e5ba1734f2.jpg)
 
   ## Contributors
-  Made by Daniel Olvera
+  Created by Daniel Olvera
 
   ## Project Link
-  github.com/runbuddy
+  https://www.github.com/danielolvera21/runbuddy
 
